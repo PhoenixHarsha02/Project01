@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+/* Font change of content */
+body{
+    margin: 0 auto;
+    font-family: Roboto;
+}
+.ball{
+border:1px solid black;
+width:100vw;
+height:95vh;
+background-image: url("https://i0.wp.com/www.iamabiker.com/wp-content/uploads/2017/03/KTM-Duke-250-HD-wallpapers-4.jpg");
+}
+.cat{
+    border:1px solid black;
+    width:10vw;
+    height:70px;
+    background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTWpxF4iV9uJGJTBsDoTjOHIE8UZDTG1B3S0yZvxsRSfQdPYBD-");
+    box-shadow:5px 7px lime;
+}
+.dog{
+    position: absolute;
+    top:16vh;
+    left:11vw;
+    border:1px solid black;
+    width:10vw;
+    height:70px;
+    background-image:url("https://i0.wp.com/www.iamabiker.com/wp-content/uploads/2017/01/Ducati-Scrambler-HD-wallpapers-1.jpg?fit=1920%2C1080&ssl=1");
+    box-shadow:5px 7px lime;
+    border-radius:50%;
+}
+.egg{     
+    border:1px solid black;
+    width:10vw;
+    height:70px;
+    position: absolute;
+    top:24vh;
+    left:22vw;
+    background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQosjZlPHCViyi79ges3V-oSzzPOO_u38RXsRFLIUdf5cd6Szch");
+    box-shadow:5px 7px lime;
+}
+.frog{
+    border:1px solid black;
+    width:10vw;
+    height:70px;
+    position: absolute;
+    top:70vh;
+    left:43vw;
+    background-color:paleturquoise;
+}
+@media only screen and (max-width: 576px) { 
+    .ball{
+        background: olive;
+    }
+ }
+/* First page */
+#harsha{
+    background-color: aqua;
+    width:98vw;
+}
+/* Second page */
+#vicky{
+    background-color:rgba(12, 99, 77, 0.705);
+    width:100%;
+}
+/* Second page heading */
+#vicky h1{
+    border: 5px solid blue;
+    display: inline-block;
+}
+/* Second page heading 2 */
+#vicky h2{
+    border-bottom: 3px solid blue;
+    display: inline-block;
+}
+/* Table */
+table,tr,td,th{
+    border-collapse: collapse;
+    border: 2px solid black;  
+    width:50%;
+}
+table{
+    float:left;
+    height:575px;
+    margin-left:20px;
+background-color:grey;
+}
+/* Form structure */
+form{
+float: right;
+border:1px solid White;
+margin-right:20px;
+margin-top: 0px;
+height:575px;
+width:45%;
+background-color: grey;
+}
+.container  {
+    padding: 20px;
+    background-color: white;   
+  }
+.checkbox1  {
+    padding: 10px;
+    background-color: white;
+  }
+.reg{
+      width:100%;
+      text-align: center;
+  }
+.registerbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 10px;
+    margin: 8px 0px 8px 10px;
+    border: none;
+    cursor: pointer; 
+  }
+.value{
+    padding: 10px;
+    width: 50%;
+    float:right;
+  }
+img{
+   display:block;
+   margin-left:auto;
+   margin-right:auto;
+}
+.page_title{
+    border:3px solid green ;
+    border-width: 1px 5px 2px 3px ;
+    display: inline-block;
+    color: red;
+    background-color:black;
+    font-size: 30px;
+    text-align:center;
+    width:100%;
+}
+/* Final footer */
+footer{
+    width:98vw;
+    color:red;
+
+}
+
+
+  

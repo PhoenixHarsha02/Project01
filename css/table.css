@@ -1,0 +1,80 @@
+.boxes{
+    border:1px solid black;
+    width:98vw;
+    height:98vh;
+    background-image:url("https://i0.wp.com/www.iamabiker.com/wp-content/uploads/2017/03/KTM-Duke-250-HD-wallpapers-4.jpg");
+}
+.boxes div:nth-child(1){
+    position:absolute;
+    top:2vh;
+    left:3vw;
+    border:1px solid black;
+    width:8vw;
+    height:8vw;
+    background-color: palegreen;
+}
+.boxes div:nth-child(2){
+    position:absolute;
+    top:18vh;
+    left:11vw;
+    border:1px solid black;
+    width:8vw;
+    height:8vw;
+    background-color: red;
+
+}
+.boxes div:nth-child(3){
+    position:absolute;
+    top:34vh;
+    left:19vw;
+    border:1px solid black;
+    width:8vw;
+    height:8vw;
+    background-color:yellow;
+    
+}
+.boxes div:nth-child(4){
+    position:absolute;
+    top:50vh;
+    left:27vw;
+    border:1px solid black;
+    width:8vw;
+    height:8vw;
+    background-color:orange;
+}
+.boxes div:nth-child(5){
+    position:absolute;
+    top:50vh;
+    right:27vw;
+    border:1px solid black;
+    width:8vw;
+    height:8vw;
+    background-color: palevioletred;
+}
+.boxes div:nth-child(6){
+    position:absolute;
+    top:34vh;
+    right:19vw;
+    border:1px solid black;
+    width:8vw;
+    height:8vw;
+    background-color: pink;
+}
+.boxes div:nth-child(7){
+    position:absolute;
+    top:18vh;
+    right:11vw;
+    border:1px solid black;
+    width:8vw;
+    height:8vw;
+    background-color: slategray;
+}
+.boxes div:nth-child(8){
+    position:absolute;
+    top:2vh;
+    right:3vw;
+    border:1px solid black;
+    width:8vw;
+    height:8vw;
+    background-color: tomato;
+}
